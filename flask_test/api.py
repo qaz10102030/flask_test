@@ -20,7 +20,3 @@ def list_repositories():
     resp = resp[0:5]
 
     return jsonify(resp)
-
-
-def run_server():
-    app.run()
