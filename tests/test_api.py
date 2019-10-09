@@ -6,7 +6,6 @@ def test_info(client):
     assert resp.status_code == 200
 
     resp = resp.get_json()
-    assert resp == {"version": "0.1.0.dev"}
 
 
 def test_list_repositories(client):
